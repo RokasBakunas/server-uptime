@@ -50,7 +50,7 @@ exports.checkAndRecordAllServers = async () => {
     }
 };
 
-const MAX_CHECKS = 288;
+const MAX_CHECKS = 5000;
 
 const checkAndRecordServerStatus = async (ip, port) => {
     const status = await checkServerStatus(ip, port);
