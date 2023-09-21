@@ -6,7 +6,7 @@ const { addServer } = require('./serverController');
 const Server = require('./models/Server');
 
 const app = express();
-const PORT = 3000;
+const PORT = 10000;
 
 // Cache variables
 let cachedHtml = null;
